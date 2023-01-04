@@ -11,7 +11,7 @@ class stack :
 
     def push(self,element):
         if self.top>=max_size-1:
-            print('the stack on push')
+            print('the stack full  on push')
         else :
             self.top +=1
             self.items[self.top]=element

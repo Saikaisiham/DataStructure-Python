@@ -52,4 +52,9 @@ class Stack:
 
 s = Stack()
 s.push(10)
+s.push(5)
+s.push(8)
+s.push(0)
+s.push(9)
+s.push(13)
 s.display()
