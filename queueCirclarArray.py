@@ -1,6 +1,7 @@
-max_size = None
+max_size = int()
 class Queue : 
     def __init__(self, size=100):
+        
         if size <= 0:
             max_size = 100
         else:
@@ -22,7 +23,7 @@ class Queue :
         if self.isFull():
             print('the queue full cant enqueue...!')
         else : 
-            self.rear = (self.rear + 1) % max_size
+            self.rear = (self.rear + 1)%max_size
             self.arr[self.rear] = ele
             self.count += 1
 
@@ -30,7 +31,7 @@ class Queue :
         if self.isEmpty(self):
             print('queue empty cant dequeue...!')
         else : 
-            self.front = (self.front + 1) % max_size
+            self.front = (self.front + 1)%max_size
             self.count -= 1
 
     # assert keyword  test if a condition in  code returns True if not the program will raise an AssertionError
@@ -69,7 +70,7 @@ class Queue :
 
 q = Queue(5)
 
-q.enqueue(1)
+q.dequeue()
 q.enqueue(2)
 q.enqueue(3)
 q.enqueue(4)
