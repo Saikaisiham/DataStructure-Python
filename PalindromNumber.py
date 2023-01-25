@@ -10,4 +10,4 @@ class Solution:
             if (rev==temp):
                 return True
 s= Solution()
-s.isPalindrome(121)
+print(s.isPalindrome(1212))

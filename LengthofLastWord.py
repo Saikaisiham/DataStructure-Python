@@ -11,4 +11,4 @@ class Solution:
 
 
 s= Solution()
-s.lengthOfLastWord('Hello World')
+print(s.lengthOfLastWord(' Hello World ')) 

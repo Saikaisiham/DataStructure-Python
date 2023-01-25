@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     
     """This code defines a class "Solution" that contains a method "twoSum". The method takes in two arguments, "nums" which is a list of integers and "target" which is an integer. The method returns a list of integers.
@@ -16,3 +18,6 @@ class Solution:
 
             map[n]=i
         return
+
+s = Solution()
+print(s.twoSum([2,7,3,1], 9))

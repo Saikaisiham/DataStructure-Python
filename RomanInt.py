@@ -19,3 +19,6 @@ class Solution(object):
             else :
               res += roman[s[i]]
         return  res
+
+s = Solution()
+print(s.romanToInt('IV'))

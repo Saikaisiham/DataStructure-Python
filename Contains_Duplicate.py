@@ -1,3 +1,7 @@
+from typing import List
+
+
+
 class Solution:
     """This class contains a method called 'containsDuplicate' which accepts a list 
 of integers as input and returns a boolean indicating whether or not the list 
@@ -12,3 +16,7 @@ elements in the list and returns True if any element is found to be a duplicate"
             d[i] = 1
 
         return False
+
+
+s = Solution()
+print(s.containsDuplicate([1,3,2,1]))
