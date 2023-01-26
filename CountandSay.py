@@ -25,3 +25,13 @@ class Solution:
             else :
                 ct += 1
         return res
+
+
+
+
+
+
+
+
+
+        

@@ -12,4 +12,4 @@ class Solution:
         return one
 
 s = Solution()
-print(s.climbStairs(9))
+print(s.climbStairs(5))

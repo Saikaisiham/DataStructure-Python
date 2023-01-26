@@ -3,15 +3,16 @@ from typing import List
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:
        
-        digits = digits[::-1]
+        # digits = digits[::-1]
         
         one ,  i = 1 , 0 
+        
         while one : 
             if i < len(digits):
                 
                 if digits[i] == 9:
                     digits[i] = 0
-                    print(digits)
+                    # print(digits)
                 else : 
                     digits[i] += 1
                     one = 0
@@ -27,4 +28,4 @@ class Solution:
 
 
 s = Solution()
-print(s.plusOne([0,0,0]))
+print(s.plusOne([9,9,9]))

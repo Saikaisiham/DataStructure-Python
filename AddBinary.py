@@ -22,3 +22,5 @@ class Solution:
 
 s = Solution()
 print(s.addBinary('10101', '100001'))
+
+print(ord(1001))
