@@ -20,3 +20,6 @@ class Solution:
             output =  -output
 
         return min (2147483647, max(-2147483648,output))
+
+s = Solution()
+print(s.divide(15, 1))

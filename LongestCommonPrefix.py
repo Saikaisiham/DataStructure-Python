@@ -1,3 +1,5 @@
+from typing import List
+
 class Solution:
     """
     This code defines a class "Solution" with a method "longestCommonPrefix" that takes in a list 
@@ -22,3 +24,9 @@ class Solution:
 
             res += strs[0][i]
         return res
+
+
+s = Solution()
+strs = ['flower','flow','flight']
+print(s.longestCommonPrefix(strs))
+            
